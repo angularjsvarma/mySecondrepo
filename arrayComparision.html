@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<p id="para"></p>
+<script>
+    var result = "";
+     var emp = {
+      "name" : "peter",
+         "dept" : "ele",
+         "country" : "India",
+         "friends": ['hal', 'sam', 'kim'],
+     };
+     for(item in emp.friends){
+         result +=  emp.friends[item] + "<br>";
+     }
+     document.getElementById("para").innerHTML =result;
+</script>
+</body>
+</html>

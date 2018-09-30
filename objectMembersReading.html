@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<!--<p id="text"></p>-->
+<script>
+    var person = {
+        name : "Denial",
+        age : 56,
+        city : 'hyd'
+    };
+    var text = "";
+    for(var items in person){
+        text += person[items] + "<br>";
+    }
+   document.write(text)
+    // document.getElementById('text').innerHTML = text;
+</script>
+</body>
+</html>
